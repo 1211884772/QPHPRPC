@@ -1,0 +1,165 @@
+Code: 0 Message: Class not found Firebase\JWT\JWT
+Exception: Class not found Firebase\JWT\JWT in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php:66
+Stack trace:
+#0 [internal function]: QPHP->load('Firebase\\JWT\\JW...')
+#1 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Util\include\JwtToken.util.php(37): spl_autoload_call('Firebase\\JWT\\JW...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\User.action.php(9): JwtTokenUtil->getToken()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): UserAction->index()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(UserAction), 'index')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(32): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(12): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 42000 Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1
+PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and pwd=123456' at line 1 in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php:148
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\QDbPdo.class.php(148): PDOStatement->execute()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Model.class.php(35): QDbPdo->getRow('select * from m...')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(11): Model->select()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#4 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#5 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#6 {main}
+Code: 0 Message: Class not found Json
+Exception: Class not found Json in D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php:66
+Stack trace:
+#0 [internal function]: QPHP->load('Json')
+#1 D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php(19): spl_autoload_call('Json')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->login()
+#3 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'login')
+#4 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#5 {main}
+Code: 0 Message: Call to a member function verifyToken() on string
+Error: Call to a member function verifyToken() on string in D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php:31
+Stack trace:
+#0 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\core\Action.class.php(21): LoginAction->getUserId()
+#1 D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php(43): Action->call(Object(LoginAction), 'getUserId')
+#2 D:\phpstudy_pro\WWW\www.qphp.com\index.php(33): QPHP->run()
+#3 {main}
+Code: 0 Message: Call to undefined method IndexAction::b()
+Error: Call to undefined method IndexAction::b() in D:\phpstudy_pro\WWW\QPHPRPC\QPHP\core\Action.class.php:21
+Stack trace:
+#0 D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php(43): Action->call(Object(IndexAction), 'b')
+#1 D:\phpstudy_pro\WWW\rpc\rpc\qphp.php(41): QPHP->run()
+#2 {main}
+Code: 0 Message: Class not found Controller
+Exception: Class not found Controller in D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php:43
+Stack trace:
+#0 [internal function]: QPHP->load('Controller')
+#1 D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php(21): spl_autoload_call('Controller')
+#2 D:\phpstudy_pro\WWW\rpc\rpc\qphp.php(47): QPHP->run()
+#3 {main}
+Code: 0 Message: Call to undefined method IndexAction::index?a=1()
+Error: Call to undefined method IndexAction::index?a=1() in D:\phpstudy_pro\WWW\QPHPRPC\QPHP\core\Action.class.php:21
+Stack trace:
+#0 D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php(23): Action->call(Object(IndexAction), 'index?a=1')
+#1 D:\phpstudy_pro\WWW\rpc\rpc\qphp.php(47): QPHP->run()
+#2 {main}
+Code: 0 Message: Call to undefined method IndexAction::index?a=1()
+Error: Call to undefined method IndexAction::index?a=1() in D:\phpstudy_pro\WWW\QPHPRPC\QPHP\core\Action.class.php:21
+Stack trace:
+#0 D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php(23): Action->call(Object(IndexAction), 'index?a=1')
+#1 D:\phpstudy_pro\WWW\rpc\rpc\qphp.php(49): QPHP->run()
+#2 {main}
+Code: 0 Message: Call to undefined method IndexAction::index=1()
+Error: Call to undefined method IndexAction::index=1() in D:\phpstudy_pro\WWW\QPHPRPC\QPHP\core\Action.class.php:21
+Stack trace:
+#0 D:\phpstudy_pro\WWW\QPHPRPC\QPHP\QPHP.php(23): Action->call(Object(IndexAction), 'index=1')
+#1 D:\phpstudy_pro\WWW\rpc\rpc\qphp.php(51): QPHP->run()
+#2 {main}
+Code: 0 Message: Class name must be a valid object or a string
+Error: Class name must be a valid object or a string in D:\phpstudy_pro\WWW\rpc\Order\QPHP\QPHP.php:22
+Stack trace:
+#0 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php(53): QPHP->run()
+#1 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php(30): order->get_data(10)
+#2 {main}
+Code: 0 Message: Class name must be a valid object or a string
+Error: Class name must be a valid object or a string in D:\phpstudy_pro\WWW\rpc\Order\QPHP\QPHP.php:23
+Stack trace:
+#0 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php(53): QPHP->run()
+#1 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php(30): order->get_data(10)
+#2 {main}
+Code: 0 Message: Class name must be a valid object or a string
+Error: Class name must be a valid object or a string in D:\phpstudy_pro\WWW\rpc\Order\QPHP\QPHP.php:23
+Stack trace:
+#0 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php(55): QPHP->run()
+#1 D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php(30): order->get_data(10)
+#2 {main}

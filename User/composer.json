@@ -1,0 +1,32 @@
+{
+    "name": "qphp/qphp",
+    "type": "project",
+    "description": "phpframework\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D-\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D",
+    "require": {
+        "php": ">=7.3.4",
+        "hprose/hprose-php": "dev-master",
+        "firebase/php-jwt": "dev-main"
+    },
+    "require-dev": {
+        "php": ">=7.3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mumu-wangwei",
+            "email": "1211884772@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.packagist.org"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+
+    }
+}

@@ -1,0 +1,104 @@
+Unknown error type: [2] require(D:\phpstudy_pro\WWW\www.qphp.com/application/admin/App/Util/include/UserAction.php): failed to open stream: No such file or directory
+Unknown error on line 51 in file D:\phpstudy_pro\WWW\www.qphp.com\QPHP\QPHP.php
+Request the address: www.qphp.com/admin/user/index/
+The wrong time: 2022-05-13 00:24:04
+Unknown error type: [2] Cannot modify header information - headers already sent by (output started at D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php:25)
+Unknown error on line 7 in file D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Util\include\Json.util.php
+Request the address: www.qphp.com/admin/login/getUserId/?username=mumu&password=123456
+The wrong time: 2022-05-13 01:57:41
+Unknown error type: [2] Cannot modify header information - headers already sent by (output started at D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php:25)
+Unknown error on line 7 in file D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Util\include\Json.util.php
+Request the address: www.qphp.com/admin/login/getUserId/?username=mumu&password=123456
+The wrong time: 2022-05-13 02:00:54
+Unknown error type: [2] Cannot modify header information - headers already sent by (output started at D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php:25)
+Unknown error on line 7 in file D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Util\include\Json.util.php
+Request the address: www.qphp.com/admin/login/getUserId/?username=mumu&password=123456
+The wrong time: 2022-05-13 02:04:42
+Unknown error type: [8] Undefined index: HTTP_X_TOKEN
+Unknown error on line 25 in file D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php
+Request the address: www.qphp.com/admin/login/getUserId/?username=mumu&password=123456
+The wrong time: 2022-05-13 02:05:32
+Unknown error type: [8] Undefined index: HTTP_X_TOKEN
+Unknown error on line 25 in file D:\phpstudy_pro\WWW\www.qphp.com\application\admin\App\Action\Login.action.php
+Request the address: www.qphp.com/admin/login/getUserId/?username=mumu&password=123456
+The wrong time: 2022-05-13 02:08:03
+Unknown error type: [2] Cannot modify header information - headers already sent by (output started at D:\phpstudy_pro\WWW\rpc\Order\QPHP\QPHP.php:22)
+Unknown error on line 8 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 08:36:56
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 08:39:58
+Unknown error type: [8] Undefined offset: 1
+Unknown error on line 14 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 08:42:07
+Unknown error type: [8] Constant APP_PATH already defined
+Unknown error on line 15 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 08:42:59
+Unknown error type: [8] Constant APP_PATH already defined
+Unknown error on line 10 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 08:43:57
+Unknown error type: [8] Constant APP_PATH already defined
+Unknown error on line 10 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 08:50:13
+Unknown error type: [8] Constant MYSQL_HOST already defined
+Unknown error on line 128 in file D:\phpstudy_pro\WWW\rpc\Order\QPHP\QPHP.php
+Request the address: 
+The wrong time: 2022-05-13 08:59:55
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:02:19
+Unknown error type: [2] Cannot modify header information - headers already sent by (output started at D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php:53)
+Unknown error on line 7 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 09:04:59
+Unknown error type: [8] Constant APP_PATH already defined
+Unknown error on line 9 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 09:06:21
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:09:49
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:16:09
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:17:44
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:19:44
+Unknown error type: [8] Constant Module already defined
+Unknown error on line 49 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 09:20:12
+Unknown error type: [2] Use of undefined constant Module - assumed 'Module' (this will throw an Error in a future version of PHP)
+Unknown error on line 22 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\order.php
+Request the address: 
+The wrong time: 2022-05-13 09:44:50
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:47:08
+Unknown error type: [2] file_get_contents(./keys/pubkey.pem): failed to open stream: No such file or directory
+Unknown error on line 25 in file D:\phpstudy_pro\WWW\rpc\Order\application\index\App\Util\include\JwtToken.util.php
+Request the address: 
+The wrong time: 2022-05-13 09:48:05
+Unknown error type: [2] Use of undefined constant data_arr - assumed 'data_arr' (this will throw an Error in a future version of PHP)
+Unknown error on line 27 in file D:\phpstudy_pro\WWW\rpc\Order\application\index\App\Action\Index.action.php
+Request the address: 
+The wrong time: 2022-05-13 09:50:13
+Unknown error type: [2] 
+Unknown error on line 16 in file D:\phpstudy_pro\WWW\rpc\rpc_php\order.server\server.php
+Request the address: 
+The wrong time: 2022-05-13 09:52:19
