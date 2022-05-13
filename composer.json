@@ -1,0 +1,30 @@
+{
+    "name": "qphprpc/qphp",
+    "type": "project",
+    "description": "phpframework rpc",
+    "require": {
+        "php": ">=7.3.4",
+    },
+    "require-dev": {
+        "php": ">=7.3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mumu-wangwei",
+            "email": "1211884772@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.packagist.org"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+
+    }
+}
