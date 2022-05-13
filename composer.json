@@ -3,7 +3,7 @@
     "type": "project",
     "description": "phpframework rpc",
     "require": {
-        "php": ">=7.3.4",
+        "php": ">=7.3.4"
     },
     "require-dev": {
         "php": ">=7.3.4"
