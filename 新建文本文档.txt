@@ -1,5 +1,11 @@
-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
+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
 
 git remote set-url origin https://<your_token>@github.com//.git
 
-git remote set-url origin https://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@github.com/1211884772/QPHPRPC.git
+git remote set-url origin https://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@github.com/1211884772/QPHPRPC.git
+
+请求地址
+http://www.rpc.com/index.php?site=order&c=order&m=get_data&param=index/index/login
+
+根目录
+rpc/index.php
