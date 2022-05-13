@@ -1,1 +1,5 @@
 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
+
+git remote set-url origin https://<your_token>@github.com//.git
+
+git remote set-url origin https://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@github.com/1211884772/QPHPRPC.git
